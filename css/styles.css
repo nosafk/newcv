@@ -1,0 +1,277 @@
+/*  ========== A ==========*/
+a {
+  text-decoration: none;
+  color: #11999E;
+}
+
+/*  ========== B ==========*/
+body {
+  margin: 0;
+  background-color: #E4F9F5;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+#background {
+  width: 100%
+}
+.bottom-container {
+  height: 10em;
+  background-color: #a0edf7;
+  margin-top: 6em;
+  padding-top: 3em;
+}
+.bottom-container p {
+  margin-top: 2em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.bottom-container a {
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.bottom-container a:hover {
+  color: #EAF6F6;
+}
+
+.button {
+  height: 2.5em;
+  background-color: #41aaa8;
+  border: solid #fff 1px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.button a {
+  color: #fff;
+}
+.button:hover {
+  font-weight: bold;
+  background-color: #1eafed;
+  border-radius: 4px;
+}
+/*  ========== C ==========*/
+.contact-me img {
+  margin-top: 2em;
+  height: 9.375rem;
+  width: 9.375rem;
+}
+
+.contact-me {
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+}
+.copyright {
+  font-size: 1rem;
+}
+/*  ========== D ==========*/
+.developer {
+  text-decoration: underline;
+  animation-duration: 750ms;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 1%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 2%;
+  }
+
+}
+
+/*  ========== E ==========*/
+
+
+/*  ========== F ==========*/
+
+
+
+/*  ========== G ==========*/
+
+
+
+/*  ========== H ==========*/
+h1 {
+  margin: 0;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #0ea5c6 6px;
+  border-bottom: none;
+  width: 4%;
+
+
+}
+
+/*  ========== I ==========*/
+.intro {
+  position: absolute;
+  top: 10rem;
+  width: 100%;
+  text-align: center;
+  margin: 150px auto 0 auto;
+}
+.intro p {
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.img-skill {
+  height: 155px;
+  width: 170px;
+  border-radius: 100%;
+  float: right;
+  margin-right: 25px;
+}
+
+/*  ========== j ==========*/
+
+
+/*  ========== K ==========*/
+
+
+/*  ========== L ==========*/
+
+
+/*  ========== M ==========*/
+.middle-container {
+  line-height: 2;
+
+}
+.middle-container .profile img {
+  float: left;
+  margin-right: 25px;
+}
+
+@media (max-width: 1020px) {
+
+  .intro {
+    position: absolute;
+    top: -8rem;
+
+  }
+  .intro p {
+    font-size: 60%;
+  }
+  h1 {
+    font-size: 1rem;
+    margin-top: 2rem;
+    top: 2px;
+  }
+  .profile img {
+
+  }
+
+}
+
+@media (min-width: 340px) and (max-width: 1020px) {
+  .intro {
+    position: absolute;
+    top: -5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 469px) and (max-width: 1015px) {
+
+  .intro {
+    position: absolute;
+    top: -3rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 622px) {
+
+  .skill-row {
+    text-align: center !important;
+    margin: 0;
+  }
+  .img-skill {
+    float: none;
+  }
+
+}
+/*  ========== N ==========*/
+
+
+/*  ========== O ==========*/
+
+
+/*  ========== P ==========*/
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}
+.profile {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+.profile img {
+  width: auto;
+  height: 200px;
+  margin-top: 1.5em;
+
+}
+
+
+/*  ========== Q ==========*/
+
+
+/*  ========== R ==========*/
+
+
+/*  ========== S ==========*/
+.skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.skill-row {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+}
+
+
+/*  ========== T ==========*/
+.top-container {
+  margin: 0;
+  width: 100%;
+  text-align: left;
+
+}
