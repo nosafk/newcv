@@ -115,10 +115,9 @@ h3 {
 }
 
 hr {
-  border: 6px dotted #0ea5c6;
+  border: 6px dotted red;
   border-bottom: none;
-  
-
+  width: 4%;
 
 }
 
